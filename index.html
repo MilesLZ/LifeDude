@@ -87,7 +87,7 @@
 
                 // if cell is alive, calculate Cartesian coordinates of cell's hue for use in circular averaging.
                 return pixel.a > 0.0 ?
-                       vec4(cos(TWO_PI * pixel.r), sin(TWO_PI * pixel.r), pixel.g, 1.0) :
+                       vec4(cos(TWO_PI * 6 * pixel.r), sin(TWO_PI * pixel.r), pixel.g, 1.0) :
                        vec4(0);
             }
 
