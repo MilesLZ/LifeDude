@@ -139,8 +139,8 @@ function init() {
         zoomStep: 4,
         zoomLevel: 0,
         
-        pauseCells: false,
-        pauseOnDraw: false,
+        pauseCells: true,
+        pauseOnDraw: true,
         pauseButton: false,
 
         brushSize: null,
