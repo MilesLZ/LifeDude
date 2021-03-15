@@ -315,7 +315,7 @@ function animate() {
     if (!params.pauseCells) {
         cellProgram.draw();
     }
-    screenProgram.draw();
+    screenProgram.draw(2);
     statsUi.update();
     window.requestAnimationFrame(animate);
 }
